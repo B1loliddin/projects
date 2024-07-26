@@ -1,0 +1,34 @@
+abstract class CustomStrings {
+  static const weatherX = 'weather x';
+  static const introductionText = 'Let’s See\nThe ⭐\nWeather\nAround you';
+  static const letUsCheck = 'Let’s Check';
+  static const britneyGlayers = 'Britney Glayers';
+  static const newYorkUSA = 'New York-USA';
+  static const feelsLikeAGoodTime = 'Feels Like A good\ntime to ride a bike';
+  static const todayIsLike = 'Today’s Like';
+  static const twentyFiveCelsius = '25°';
+  static const todayIsMood = 'Today’s Mood';
+  static const veryGood = 'Very Good';
+  static const tomorrowIsMood = 'Tomorrow’s Mood';
+  static const excellent = 'Excellent';
+  static const howYouFeelToday = 'How You feel Today ?';
+  static const veryGoodWithEmoticon = 'very good 😊';
+  static const ok = 'okish 😐';
+  static const veryBad = 'very bad 🙁';
+  static const angry = 'angry 😠';
+  static const justSad = 'just sad for no reason 😩';
+  static const veryHappy = 'I’m Very very happy 😍';
+  static const textFieldHintText = 'Bosila, Mohammadpur Dhaka';
+  static const generalSettings = 'General Settings';
+  static const account = 'Account';
+  static const location = 'Location';
+  static const notifications = 'Notifications';
+  static const temperature = 'Temperature';
+  static const celsius = 'Celsius';
+  static const fahrenheit = 'Fahrenheit';
+  static const termsAndServices = 'terms and services';
+  static const about = 'About';
+  static const report = 'Report buggy buggy';
+  static const errorText = 'Ops nothing’s here';
+  static const letUsGoHome = 'Lets Go Home....';
+}

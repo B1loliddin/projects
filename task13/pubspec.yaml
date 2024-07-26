@@ -1,0 +1,57 @@
+name: task13
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: GothamPro
+      fonts:
+        - asset: assets/fonts/gotham_pro/GothamPro-Light.ttf
+          weight: 100
+        - asset: assets/fonts/gotham_pro/GothamPro-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/gotham_pro/GothamPro-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/gotham_pro/GothamPro-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/gotham_pro/GothamPro-Black.ttf
+          weight: 900
+        - asset: assets/fonts/gotham_pro/GothamPro-LightItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/gotham_pro/GothamPro-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/gotham_pro/GothamPro-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/gotham_pro/GothamPro-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/gotham_pro/GothamPro-BlackItalic.ttf
+          weight: 900
+          style: italic

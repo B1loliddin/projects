@@ -1,0 +1,54 @@
+name: drone_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: CircularStd
+      fonts:
+        - asset: assets/fonts/circular_std/CircularStd-Book.ttf
+          weight: 400
+        - asset: assets/fonts/circular_std/CircularStd-BookItalic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/circular_std/CircularStd-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/circular_std/CircularStd-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/circular_std/CircularStd-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/circular_std/CircularStd-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/circular_std/CircularStd-Black.ttf
+          weight: 900
+        - asset: assets/fonts/circular_std/CircularStd-BlackItalic.ttf
+          weight: 900
+          style: italic

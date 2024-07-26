@@ -1,0 +1,111 @@
+name: furniture_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Gelasio
+      fonts:
+        - asset: assets/fonts/gelasio/Gelasio-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/gelasio/Gelasio-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/gelasio/Gelasio-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/gelasio/Gelasio-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/gelasio/Gelasio-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/gelasio/Gelasio-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/gelasio/Gelasio-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/gelasio/Gelasio-BoldItalic.ttf
+          weight: 700
+          style: italic
+    - family: NunitoSans
+      fonts:
+        - asset: assets/fonts/nunito_sans/NunitoSans-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/nunito_sans/NunitoSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/nunito_sans/NunitoSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/nunito_sans/NunitoSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/nunito_sans/NunitoSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/nunito_sans/NunitoSans-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/nunito_sans/NunitoSans-Black.ttf
+          weight: 900
+        - asset: assets/fonts/nunito_sans/NunitoSans-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/nunito_sans/NunitoSans-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/nunito_sans/NunitoSans-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/nunito_sans/NunitoSans-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/nunito_sans/NunitoSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/nunito_sans/NunitoSans-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/nunito_sans/NunitoSans-BlackItalic.ttf
+          weight: 900
+          style: italic
+    - family: Merriweather
+      fonts:
+        - asset: assets/fonts/merriweather/Merriweather-Light.ttf
+          weight: 300
+        - asset: assets/fonts/merriweather/Merriweather-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/merriweather/Merriweather-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/merriweather/Merriweather-Black.ttf
+          weight: 900
+        - asset: assets/fonts/merriweather/Merriweather-LightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/merriweather/Merriweather-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/merriweather/Merriweather-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/merriweather/Merriweather-BlackItalic.ttf
+          weight: 900
+          style: italic

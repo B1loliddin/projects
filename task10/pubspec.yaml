@@ -1,0 +1,121 @@
+name: task10
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/avenir/Avenir-Light.ttf
+          weight: 300
+        - asset: assets/fonts/avenir/Avenir-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/avenir/Avenir-Book.ttf
+          weight: 500
+        - asset: assets/fonts/avenir/Avenir-Heavy.ttf
+          weight: 800
+        - asset: assets/fonts/avenir/Avenir-Black.ttf
+          weight: 900
+    - family: Muli
+      fonts:
+        - asset: assets/fonts/muli/Muli-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/muli/Muli-Light.ttf
+          weight: 300
+        - asset: assets/fonts/muli/Muli-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/muli/Muli-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/muli/Muli-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/muli/Muli-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/muli/Muli-Black.ttf
+          weight: 900
+        - asset: assets/fonts/muli/Muli-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/muli/Muli-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/muli/Muli-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/muli/Muli-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/muli/Muli-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/muli/Muli-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/muli/Muli-BlackItalic.ttf
+          weight: 900
+          style: italic
+    - family: Mulish
+      fonts:
+        - asset: assets/fonts/mulish/Mulish-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/mulish/Mulish-Light.ttf
+          weight: 300
+        - asset: assets/fonts/mulish/Mulish-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/mulish/Mulish-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/mulish/Mulish-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/mulish/Mulish-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/mulish/Mulish-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/mulish/Mulish-Black.ttf
+          weight: 900
+        - asset: assets/fonts/mulish/Mulish-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/mulish/Mulish-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/mulish/Mulish-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/mulish/Mulish-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/mulish/Mulish-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/mulish/Mulish-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/mulish/Mulish-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/mulish/Mulish-BlackItalic.ttf
+          weight: 900
+          style: italic
